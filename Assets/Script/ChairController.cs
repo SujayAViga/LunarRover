@@ -47,6 +47,10 @@ public class ChairController : MonoBehaviour
         float l_x = NormalizeAngle(rotation.z); // Map rotation z to l_x
         float l_y = 0f; // Placeholder for unused data
 
+        // Invert the necessary axes if the mapping is opposite
+        r_x = -r_x; // Invert x-axis rotation
+        r_y = -r_y; // Invert y-axis rotation
+
         // Send the rotation as UDP
         SendUDPMessage(r_x/10, r_y/10, l_x/10, l_y/10);
     }
