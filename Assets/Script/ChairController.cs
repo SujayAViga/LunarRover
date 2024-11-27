@@ -48,7 +48,7 @@ public class ChairController : MonoBehaviour
         float l_y = 0f; // Placeholder for unused data
 
         // Send the rotation as UDP
-        SendUDPMessage(r_x, r_y, l_x, l_y);
+        SendUDPMessage(r_x/10, r_y/10, l_x/10, l_y/10);
     }
 
     void SendUDPMessage(float r_x, float r_y, float l_x, float l_y)
