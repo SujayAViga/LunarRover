@@ -1288,7 +1288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6371064869930701853, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: m_CenterOfMass.y
-      value: 0.6
+      value: 0.6000001
       objectReference: {fileID: 0}
     - target: {fileID: 6371064869930701853, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: m_CenterOfMass.z
@@ -1435,6 +1435,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3000448023733274975, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1240686987}
+    - targetCorrespondingSourceObject: {fileID: 3000448023733274975, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1771467087}
   m_SourcePrefab: {fileID: 100100000, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
 --- !u!4 &1240686978 stripped
 Transform:
@@ -2339,6 +2342,19 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
+--- !u!114 &1771467087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88922215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d802bcc1b05ca540a2f60074a58851a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monitoredObject: {fileID: 1240686979}
 --- !u!1 &1893552849
 GameObject:
   m_ObjectHideFlags: 0
