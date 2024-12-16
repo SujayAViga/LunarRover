@@ -174,22 +174,22 @@ MonoBehaviour:
   active: 1
   rotation:
     m_OverrideState: 1
-    m_Value: 109
+    m_Value: 104
   skyIntensityMode:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 2
   exposure:
     m_OverrideState: 0
     m_Value: 0
   multiplier:
     m_OverrideState: 0
-    m_Value: 1
+    m_Value: 249.77
   upperHemisphereLuxValue:
     m_OverrideState: 1
-    m_Value: 0.033144213
+    m_Value: 0.013133256
   upperHemisphereLuxColor:
     m_OverrideState: 1
-    m_Value: {x: 0.2679801, y: 0.3733168, z: 0.5}
+    m_Value: {x: 0.28156602, y: 0.3841522, z: 0.5}
   desiredLuxValue:
     m_OverrideState: 0
     m_Value: 20000
@@ -207,7 +207,7 @@ MonoBehaviour:
     m_Value: {fileID: 8900000, guid: 131bb035909b8454bb2b505096ced572, type: 3}
   distortionMode:
     m_OverrideState: 0
-    m_Value: 0
+    m_Value: 1
   flowmap:
     m_OverrideState: 0
     m_Value: {fileID: 0}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 50.21751, g: 70.76562, b: 95.91187, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2202,7 +2202,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0d505ae14cb03194d9c3aaae74029500, type: 2}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.maxRpm
-      value: 2000
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.idleRpm
@@ -2210,7 +2210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.peakRpm
-      value: 1000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.idleRpmTorque
@@ -2474,7 +2474,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: fbdbca838592de948adadd45168aa562, type: 2}
     - target: {fileID: 9035184475248095131, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.7049863e-19
+      value: 1.06383236e-11
       objectReference: {fileID: 0}
     - target: {fileID: 9035184475248095131, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2482,7 +2482,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9035184475248095131, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.6653345e-16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2733,7 +2733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.962
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 126d619cf4daa52469682f85c1378b4a, type: 3}
       propertyPath: m_LocalRotation.w
