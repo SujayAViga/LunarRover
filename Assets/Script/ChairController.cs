@@ -18,6 +18,10 @@ public class ChairController : MonoBehaviour
     UdpClient socket;
     IPEndPoint target;
 
+    
+    [Range(0.01f, 1.0f)]
+    public float chairSensitivity = 0.1f;
+
     // The object to monitor for rotation
     public Transform monitoredObject;
 
@@ -52,7 +56,7 @@ public class ChairController : MonoBehaviour
         r_y = -r_y; // Invert y-axis rotation
 
         // Send the rotation as UDP
-        SendUDPMessage(r_x/10, r_y/10, l_x/10, l_y/10);
+        SendUDPMessage(r_x*chairSensitivity, r_y*chairSensitivity, l_x*chairSensitivity, l_y*chairSensitivity);
     }
 
     void SendUDPMessage(float r_x, float r_y, float l_x, float l_y)
