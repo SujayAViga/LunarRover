@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 28.456097, g: 40.63484, b: 55.49076, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2202,7 +2202,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 0d505ae14cb03194d9c3aaae74029500, type: 2}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.maxRpm
-      value: 600
+      value: 1610
       objectReference: {fileID: 0}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.idleRpm
@@ -2210,7 +2210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.peakRpm
-      value: 500
+      value: 1600
       objectReference: {fileID: 0}
     - target: {fileID: 5753420463273405667, guid: 6e2bc1ddad13e414b9f350081f59060d, type: 3}
       propertyPath: engine.idleRpmTorque
